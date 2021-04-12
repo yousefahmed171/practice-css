@@ -131,17 +131,16 @@ header .menu ul{
     position: absolute;
     right: 0;
     min-width: 200px;
-    /* transition: 0.3s; */
+    transition: 0.3s;
     margin: 0;
     padding: 0;
     top: calc(100% + 20px);
-    /* display: none; */
+    display: none;
     z-index: 5;
 }
 
-.header .menu:hover ul {
+header .menu:hover ul {
     display: block;
-    z-index: 10;
 }
 
 header .menu  ul::before{
@@ -186,7 +185,7 @@ header .menu ul li:not(:last-child) a{
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: -50% -50%;
+    translate: -50%-50%;
     text-align: center;
     width: 320px;
     max-width: 100%;
